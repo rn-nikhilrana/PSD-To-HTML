@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto'sans-serif;
+}
+.nav-bg{
+    background-image: url('../img/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#collapsenav ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 21px;
+    padding: 5px 10px;
+}
+#collapsenav ul li a:hover,.active{
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+}
+.bg{
+    padding-top: 21px;
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contentbg{
+    background-image: url('../img/content-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-bottom: 10%; */
+    border-radius: 15px;
+}
+.space{
+    box-sizing: border-box;
+}
+.contentbg h5{
+    color: #181818;
+    word-spacing: -5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1;
+}
+.contentbg .btn-project{
+    position: relative;
+    content: "";
+    color: #fff;
+    border-radius: 15px;
+    text-transform: uppercase;
+    background-color: #316a98;
+    font-size: 12pt;
+    top: -25px;
+    left: 50%;
+}
+.txtsize{
+    font-size: 16pt;
+    font-weight: 700;
+    color: #191919;
+}
+#para{
+    color: #d2d2d2;
+    font-size: 12pt;
+    line-height: 1.7;
+}
+.h2size{
+    font-size: 24pt;
+    text-transform: uppercase;
+    color: #191919;
+}
+.ptext{
+    font-size: 12pt;
+    color: #191919;
+}
+.footer{
+    background-image: url(../img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer .twitter{
+    background-color: #1f1f20;
+    border-radius: 20px;
+    color: #fff;
+}
+.footer p{
+        padding-top: 18px;
+    }
+/* ------------------Media Query---------------------- */
+@media screen and (min-width:1025px) and (max-width: 1199px) {
+    .contentbg h5{
+        font-size: 3rem;
+    }
+    .contentbg .btn-project{
+        font-size: 10pt;
+        top: -20px;
+        left: 50%;
+    }
+    .tc button{
+        margin-right: 12px!important;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 1024px) {
+    #collapsenav ul li a{
+        font-size: 18px;
+    }
+    .contentbg h5{
+        font-size: 2.5rem;
+    }
+    .txtsize{
+        font-size: 15pt;
+    }
+    #para{
+        font-size: 10.5pt;
+    }
+    .contentbg .btn-project{
+        font-size: 8pt;
+        top: -20px;
+        left: 55%;
+    }
+    .h2size{
+        font-size: 20pt;
+        text-transform: uppercase;
+        color: #191919;
+    }
+    .ptext{
+        font-size: 10.5pt;
+        color: #191919;
+    }
+    .tc p{
+        margin-bottom: 14px!important;
+    }
+    .footer .twitter{
+        margin-top: 12px!important;
+        font-size: 12px;
+        border-radius: 20px;
+    }
+    .tc img{
+        padding-left: 12px;
+        width:100px;
+        height: auto;
+    }
+}
+@media screen and (min-width:480px) and (max-width: 768px) {
+    .contentbg h5{
+        font-size: 2.1rem;
+    }
+    .txtsize{
+        text-align: center;
+        font-size: 18pt;
+    }
+    #para{
+        text-align: center;
+        font-size: 11pt;
+        padding-right: 0!important;
+    }
+    .h2size{
+        font-size: 18pt;
+    }
+    .ptext{
+        font-size: 11pt;
+    }
+    .footer{
+        text-align: center;
+    }
+    .tc .twitter{
+        font-size: 10pt;
+    }
+}
+@media screen and (min-width:320px) and (max-width: 479px) {
+    .navbar-toggler{
+        border: none!important;
+    }
+    #collapsenav ul li a{
+        font-size: 14px!important;
+    }
+    .contentbg h5{
+        font-size: 2.2rem;
+    }
+    .txtsize{
+        text-align: center;
+        font-size: 16pt;
+    }
+    #para{
+        text-align: center;
+        font-size: 10pt;
+        padding-right: 0!important;
+    }
+    .h2size{
+        font-size: 16pt;
+    }
+    .ptext{
+        font-size: 11pt;
+    }
+    .footer{
+        text-align: center;
+    }
+    .tc .twitter{
+        font-size: 8pt;
+    }
+}
